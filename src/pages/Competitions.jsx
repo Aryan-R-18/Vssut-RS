@@ -28,14 +28,14 @@ const roboconEvents = [
     image: '/roboconimages/robocon17.jpg',
     description: "Project: Aerodisc – A disc-launching robot designed for the Robocon 2017 competition. Engineered with holonomic motion and real-time sensing capabilities, it featured pneumatic launchers, aluminium chassis, and autonomous navigation using Kinect, IMU, and color sensors."
   },
-  {
-    id: 104,
-    name: 'Robocon 2014',
-    year: '2014',
-    achievement: '',
-    image: '/roboconimages/robocon14.jpg',
-    description: "."
-  }
+  // {
+  //   id: 104,
+  //   name: 'Robocon 2014',
+  //   year: '2014',
+  //   achievement: '',
+  //   image: '/roboconimages/robocon14.jpg',
+  //   description: "."
+  // }
 ];
 
 const competitions = [
@@ -47,6 +47,16 @@ const competitions = [
     image: '/compimages/roscon.jpg',
     description: "ROSCon In'24 Bengaluru"
   },
+
+  {
+    id: 7,
+    name: 'India Mobile Congress',
+    year: '2025',
+    achievement: '',
+    image: '/compimages/IMC2.jpg',
+    description: "Asia's largest techfest"
+  },
+
 
   {
     id: 4,
@@ -64,6 +74,15 @@ const competitions = [
     achievement: '',
     image: '/compimages/sih1.jpg',
     description: 'National level hackathon focused on solving real-world problems using technology.'
+  },
+
+  {
+    id: 8,
+    name: 'Innovision at NIT Rourkela',
+    year: '2025',
+    achievement: '',
+    image: '/compimages/inno2025-1.jpg',
+    description: 'Technical fest competition showcasing innovative robotics projects.'
   },
 
   {
@@ -90,7 +109,7 @@ const competitions = [
     name: 'E-yantra',
     year: '2024',
     achievement: '',
-    image: '/compimages/eyantra.jpg',
+    image: '/compimages/eyrc5.jpg',
     description: "E-yantra is a robotics competition that aims to promote innovation and creativity in robotics. The competition features a variety of robotic challenges, including designing and building a robot that can navigate through a maze, designing a robot that can climb stairs, and designing a robot that can play a game of soccer. The competition also includes a team-building activity where teams are required to work together to solve a problem."
   }
 ];

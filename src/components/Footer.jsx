@@ -62,7 +62,6 @@ const Footer = () => {
             <div className="developer-credits">
               <p>Lead Developer: Pattanaik Ayushman Alok</p>
               <p>Junior Developers: Aryan Rajguru, Remit Patra and Rounak Senapati</p>
-              <p>Content: Shradha Suman & Trisha</p>
             </div>
           </div>
       </div>

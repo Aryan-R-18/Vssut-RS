@@ -26,6 +26,27 @@ const competitions = [
   },
 
   {
+    id: 7,
+    name: 'India Mobile Congress',
+    year: '2025',
+    achievement: '',
+    image: '/compimages/IMC2.jpg',
+    description: 'Technical fest competition showcasing innovative robotics projects.',
+    content: ['2025',
+      "Asia's largest digital technology event, organized by India's Department of Telecommunications & COAI, bringing together leaders from industry, government, academia, and startups to showcase next-gen tech like 5G/6G, AI, IoT, Quantum, and Cybersecurity, fostering collaboration, driving innovation, and shaping India's digital future through exhibitions, conferences, and demos",
+
+    ],
+    gallery: [
+      '/compimages/IMC3.jpg',
+      '/compimages/IMC1.jpg',
+      '/compimages/IMC2.jpg',
+      '/compimages/IMC4.jpg',
+      '/compimages/IMC6.jpg',
+      '/compimages/IMC7.jpg',
+    ]
+  },
+
+  {
     id: 4,
     name: 'MIO Conclave',
     year: '2023',
@@ -155,11 +176,30 @@ const competitions = [
   // },
 
   {
+    id: 8,
+    name: 'Innovision at NIT Rourkela',
+    year: '2025',
+    achievement: '',
+    image: '/compimages/inno2025-1.jpg',
+    description: 'Technical fest competition showcasing innovative robotics projects.',
+    content: ['2025',
+      'Runners-Up – INNOVISION',
+
+    ],
+    gallery: [
+      '/compimages/inno2025-1.jpg',
+      '/compimages/inno2025-2.jpg',
+      '/compimages/inno2025-3.jpg',
+      '/compimages/inno2025-4.jpg',
+    ]
+  },
+
+  {
     id: 6,
     name: 'E-Yantra',
     year: '2024',
     achievement: '',
-    image: '/compimages/eyantra.jpg',
+    image: '/compimages/eyrc5.jpg',
     description: 'National level hackathon focused on solving real-world problems using technology.',
     content: ["e-Yantra, an initiative by IIT Bombay under the Ministry of Education, is a national-level robotics competition that fosters innovation in embedded systems and real-world problem solving. It provides a project-based learning platform, guiding students through complex challenges in automation, robotics, and AI.",
       
@@ -197,6 +237,11 @@ const competitions = [
     gallery: [
        '/compimages/eyantra 1.jpg',
        '/compimages/eyantra.jpg',
+       '/compimages/eyrc1.jpg',
+       '/compimages/eyrc2.jpg',
+       '/compimages/eyrc3.jpg',
+       '/compimages/eyrc4.jpg',
+       '/compimages/eyrc5.jpg',
     ]
   },
 ];
@@ -232,16 +277,16 @@ const roboconEvents = [
     content: "For Robocon 2017, the VSSUT Robotics Society developed a lightweight, holonomic-motion robot with advanced disc-launching capabilities and precise navigation. Built with aluminium channels and powered by planetary motors, pneumatics, and a 32-bit microcontroller, it featured real-time sensing through Kinect, IMU, and color sensors. The bot’s high performance earned it an impressive AIR 6 at the Robocon Nationals.",
     gallery: ['/compimages/robocon8.jpg']
   },
-  {
-    id: 104,
-    name: 'Robocon 2014',
-    year: '2014',
-    achievement: '',
-    image: '/roboconimages/robocon14.jpg',
-    description: "",
-    content: "",
-    gallery: []
-  }
+  // {
+  //   id: 104,
+  //   name: 'Robocon 2014',
+  //   year: '2014',
+  //   achievement: '',
+  //   image: '/roboconimages/robocon14.jpg',
+  //   description: "",
+  //   content: "",
+  //   gallery: []
+  // }
 ];
 
 
